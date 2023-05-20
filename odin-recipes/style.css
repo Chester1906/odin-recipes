@@ -1,0 +1,139 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    background-image: url();
+    background-size: cover;
+    background-color: white;
+    height: 1000px;
+    padding-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sidebar{
+    display: flex;
+    position: fixed;
+    bottom: 180px;
+    left: 0;
+    top: 200px;
+    background-color: black;
+    color: white;
+    width: 60px;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    font-size: 30px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: -15px;
+    border-radius: 10px;
+    padding-left: 15px;
+}
+.sidebar:hover{
+    width: 80px;
+    bottom: 175px;
+    top: 195px;
+    font-size: 31px;
+    border-radius: 20px;
+    transition: 0.25s;
+}
+.header-div{
+    text-align: center;
+    justify-content: center;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    height: 70px;
+    background-color: black;
+    display: flex;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+}
+.odin-png{
+    display: flex;
+    width: auto;
+    height: 60px;
+    align-items: ;
+    justify-content: center;
+    margin-top: 5px;
+    margin-right: 20px;
+}
+.header-text{
+    margin-top: 15px;
+}
+.container-div{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.img-div{
+    display: flex;
+    flex: 1;
+    margin-right: 50px;
+    justify-content: end;
+}
+.main-img{
+    margin-top: 5px;
+    width: 800px;
+    height: 900px;
+    border-style: solid;
+    border-color: orange;
+    border-radius: 10px;
+}
+
+.contents-div{
+    padding-top: 20px;
+    font-size: 15px;
+    text-align: center;
+    align-items: center;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    border: 5px dashed orange;
+    border-radius: 30px;
+    background-color: rgba(255, 166, 0, 0.534);
+}
+.contents-div:hover{
+    background-color: rgba(255, 166, 0, 0.753);
+    transition: 0.25s;
+}
+.contents-img-div{
+    margin: 10px 0 10px 70px;
+    width: 250px;
+    height: 200px;
+    display: block;
+    border-radius: 20px;
+}
+.contents-img:hover{
+    width: 255px;
+    height: 205px;
+    border-radius: 20px;
+    transition: 0.25s;
+}
+.contents-img{
+    width: 250px;
+    height: 200px;
+    border-radius: 20px;
+    border: 1px solid white;
+}
+.list-div{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 50px;
+    display: row;
+    justify-content: space-between;
+}
+p, h2, h1{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+li{
+    padding-top: 20px;
+}

@@ -1,0 +1,93 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding-top: 62px;
+}
+.header-div{
+    position: fixed;
+    right: 500px;
+    left: 0;
+    top: 0;
+    height: 70px;
+    background-color: black;
+    color: white;
+    margin-left: -15px;
+    margin-top: -8px;
+    padding: 8px 0px 0px 0px;
+    text-align: center;
+}
+.header-text{
+    margin: 15px 0px 0px 30px;
+}
+.container{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.first-half{
+    background-color: white;
+    color: orange;
+    margin-left: -7px;
+}
+.main-img{
+    width: 1200px;
+}
+.description-div{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 1150px;
+    justify-content: center;
+    align-items: center;
+}
+.description-div > h2{
+    background-color: orange;
+    color: white;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    font-size: 30px;
+    width: 100%;
+}
+.description-div > p {
+    width: 900px;
+    text-align: center;
+    font-size: 25px;
+    padding-left: 100px;
+}
+
+.ingredients-half{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 500px;
+    background-color: orange;
+    color: white;
+    padding-left: 30px;
+    border-left-style: solid;
+    border-left-color: white;
+    border-left-width: 5px;
+}
+.ingredients-title > h2{
+    background-color: white;
+    color: orange;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    font-size: 30px;
+    margin-left: -25px;
+    margin-right: 5px;
+}
+.ingredients-half:hover{
+    width: 560px;
+    transition: 0.25s;
+}
+.list-div:hover{
+    padding-right: 40px;
+}
+.list-div{
+    font-size: 20px;
+    padding-right: 30px;
+}
